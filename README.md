@@ -94,7 +94,7 @@ FlowEqProp/
 │   ├── generate_from_checkpoint.py # Generation from saved checkpoint
 │   ├── network_ep_mlp.py          # EP-compatible MLP energy model
 │   └── config_multigpu.py         # Hyperparameter flags
-├── utils_cifar_imagenet.py        # Training utilities
+├── utils.py                       # Training utilities
 ├── requirements.txt
 ├── LICENSE
 └── README.md

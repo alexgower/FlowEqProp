@@ -26,7 +26,7 @@ FLAGS = flags.FLAGS
 # 2) Import your usual goodies
 from torchvision import datasets, transforms
 
-from utils_cifar_imagenet import (
+from utils import (
     create_timestamped_dir,
     flow_weight,
     gibbs_sampling_time_sweep,
