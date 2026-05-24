@@ -100,6 +100,10 @@ FlowEqProp/
 └── README.md
 ```
 
+## Acknowledgments
+
+This codebase is adapted from the [Energy Matching](https://github.com/m1balcerak/EnergyMatching) repository by Balcerak et al. We thank the authors for making their code publicly available.
+
 ## Citation
 
 ```bibtex
