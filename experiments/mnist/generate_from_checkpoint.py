@@ -9,12 +9,12 @@ the systematic v_mag undershoot caused by MSE-optimal magnitude reduction).
 Usage examples:
   # Default spring generation
   python generate_from_checkpoint.py \
-      --ckpt=results_mnist_from_cifar10/EBMTime_20260405_16/checkpoint_2200.pt \
+      --ckpt=results_mnist/EBMTime_20260405_16/checkpoint_2200.pt \
       --output_dir=./gen_sweep
 
   # Sweep t1 values for spring and EGD
   python generate_from_checkpoint.py \
-      --ckpt=results_mnist_from_cifar10/EBMTime_20260405_16/checkpoint_2200.pt \
+      --ckpt=results_mnist/EBMTime_20260405_16/checkpoint_2200.pt \
       --output_dir=./gen_sweep \
       --t1=1.0,1.05,1.1,1.15,1.2 \
       --dt=0.01,0.005 \

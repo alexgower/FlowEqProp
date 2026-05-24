@@ -12,7 +12,7 @@ def define_flags():
 
     # Model + output
     flags.DEFINE_string("model", "EBMTime", "Flow matching model type")
-    flags.DEFINE_string("output_dir", "./results_mnist_from_cifar10/", "Directory for results")
+    flags.DEFINE_string("output_dir", "./results_mnist/", "Directory for results")
     flags.DEFINE_string("model_type", "unet_vit",
                         "Model architecture: 'unet_vit' (paper), 'cnn'/'cnn_v2' (feedforward CNN), 'ep_cnn' (EP recurrent CNN), or 'ep_mlp' (EP recurrent MLP)")
 

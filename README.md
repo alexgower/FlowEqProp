@@ -19,7 +19,7 @@ pip install -r requirements.txt
 Reproduce the paper experiment (sklearn digits, spring-clamped EP):
 
 ```bash
-torchrun --standalone --nproc_per_node=1 experiments/mnist_from_cifar10/train_cifar_multigpu.py \
+torchrun --standalone --nproc_per_node=1 experiments/mnist/train_cifar_multigpu.py \
     --model_type=ep_mlp \
     --dataset=sklearn_digits \
     --ep_archi=64,128,128 \
@@ -49,7 +49,7 @@ Training takes approximately 1 hour on a single NVIDIA A100 GPU.
 ## Generation from checkpoint
 
 ```bash
-python experiments/mnist_from_cifar10/generate_from_checkpoint.py \
+python experiments/mnist/generate_from_checkpoint.py \
     --model_type=ep_mlp \
     --dataset=sklearn_digits \
     --ep_archi=64,128,128 \
@@ -89,7 +89,7 @@ python experiments/mnist_from_cifar10/generate_from_checkpoint.py \
 
 ```
 FlowEqProp/
-├── experiments/mnist_from_cifar10/
+├── experiments/mnist/
 │   ├── train_cifar_multigpu.py    # Training script (spring-clamped EP)
 │   ├── generate_from_checkpoint.py # Generation from saved checkpoint
 │   ├── network_ep_mlp.py          # EP-compatible MLP energy model
