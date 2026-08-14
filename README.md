@@ -1,6 +1,6 @@
 # FlowEqProp: Training Flow Matching Generative Models with Gradient Equilibrium Propagation
 
-Official code for the ICONS '26 paper:
+Official code for the ICONS '26 paper (🏆 Best Paper Award):
 
 > **FlowEqProp: Training Flow Matching Generative Models with Gradient Equilibrium Propagation**
 > Alex Gower
